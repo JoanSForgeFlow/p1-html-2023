@@ -59,3 +59,8 @@ li::before {
     width: 1.5rem;
     margin-left: -1.5rem;
 }
+
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
