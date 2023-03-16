@@ -34,3 +34,20 @@ h3 {
     border-bottom: 2px solid #000000;
     padding-bottom: 0.3rem;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+li::before {
+    color: #2F4F4F;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -1.5rem;
+}
