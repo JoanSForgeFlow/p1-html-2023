@@ -22,12 +22,23 @@ header h2 {
     color: #fff;
 }
 
+.profile-picture {
+    float: right;
+    max-width: 200px;
+    margin: 0 0 2rem 2em;
+    border-radius: 50%;
+}
+
 main {
     padding: 2rem;
 }
 
 section {
     margin-bottom: 1.5rem;
+}
+
+#education {
+    margin-top: 11rem;
 }
 
 h3 {
