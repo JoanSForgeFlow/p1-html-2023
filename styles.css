@@ -76,10 +76,28 @@ li::before {
     grid-template-columns: repeat(2, 1fr);
 }
 
+#personal-interests {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.section-title {
+    width: 100%;
+}
+
+.section-title h3 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 0.3rem;
+    margin: 0;
+}
+
 .travel-photos {
     display: flex;
     width: 800px;
     height: 800px;
+    margin: 0 auto;
 }
 
 .travel-photos img {
