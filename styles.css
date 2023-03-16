@@ -75,3 +75,24 @@ li::before {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.travel-photos {
+    display: flex;
+    width: 800px;
+    height: 800px;
+}
+
+.travel-photos img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+}
+
+.travel-photos img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
