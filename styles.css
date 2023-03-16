@@ -31,25 +31,36 @@ header h2 {
 
 main {
     padding: 2rem;
+    background-color: #d0d0d0;
 }
 
 section {
     margin-bottom: 1.5rem;
 }
 
+section:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+section:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
 #education {
-    margin-top: 11rem;
+    margin-top: 12.5rem;
 }
 
 h3 {
     border-bottom: 2px solid #000000;
     padding-bottom: 0.3rem;
+    margin-left: 1rem;
 }
 
 h4 {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    margin-left: 2rem;
     text-decoration: underline;
 }
 
@@ -74,6 +85,7 @@ li::before {
 .language-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 3rem;
 }
 
 #personal-interests {
@@ -91,6 +103,11 @@ li::before {
     border-bottom: 2px solid #000000;
     padding-bottom: 0.3rem;
     margin: 0;
+    margin-left: 1rem;
+}
+
+.language-title {
+    margin-left: 0;
 }
 
 .travel-photos {
