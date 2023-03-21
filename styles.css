@@ -93,6 +93,21 @@ a:hover:before {
     transform: scaleX(1);
 }
 
+.download-icon {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.download-icon:hover {
+    transform: scale(1.5);
+    color: #ff0000;
+}
+
+.download-icon:before {
+    content: none;
+}
+
 h4 {
     font-size: 1.15rem;
     font-weight: bold;
@@ -152,6 +167,7 @@ li::before {
     width: 1000px;
     height: 800px;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .travel-photos img {
